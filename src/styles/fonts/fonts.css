@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('poppins/PoppinsLight.eot');
+  src: url('poppins/PoppinsLight.eot') format('embedded-opentype'),
+    url('poppins/PoppinsLight.woff2') format('woff2'),
+    url('poppins/PoppinsLight.woff') format('woff'),
+    url('poppins/PoppinsLight.ttf') format('truetype'),
+    url('poppins/PoppinsLight.svg#PoppinsLight') format('svg');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('poppins/PoppinsRegular.eot');
+  src: url('poppins/PoppinsRegular.eot') format('embedded-opentype'),
+    url('poppins/PoppinsRegular.woff2') format('woff2'),
+    url('poppins/PoppinsRegular.woff') format('woff'),
+    url('poppins/PoppinsRegular.ttf') format('truetype'),
+    url('poppins/PoppinsRegular.svg#PoppinsRegular') format('svg');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('poppins/PoppinsMedium.eot');
+  src: url('poppins/PoppinsMedium.eot') format('embedded-opentype'),
+    url('poppins/PoppinsMedium.woff2') format('woff2'),
+    url('poppins/PoppinsMedium.woff') format('woff'),
+    url('poppins/PoppinsMedium.ttf') format('truetype'),
+    url('poppins/PoppinsMedium.svg#PoppinsMedium') format('svg');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('poppins/PoppinsSemiBold.eot');
+  src: url('poppins/PoppinsSemiBold.eot') format('embedded-opentype'),
+    url('poppins/PoppinsSemiBold.woff2') format('woff2'),
+    url('poppins/PoppinsSemiBold.woff') format('woff'),
+    url('poppins/PoppinsSemiBold.ttf') format('truetype'),
+    url('poppins/PoppinsSemiBold.svg#PoppinsSemiBold') format('svg');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('poppins/PoppinsBold.eot');
+  src: url('poppins/PoppinsBold.eot') format('embedded-opentype'),
+    url('poppins/PoppinsBold.woff2') format('woff2'),
+    url('poppins/PoppinsBold.woff') format('woff'),
+    url('poppins/PoppinsBold.ttf') format('truetype'),
+    url('poppins/PoppinsBold.svg#PoppinsBold') format('svg');
+  font-weight: 700;
+}

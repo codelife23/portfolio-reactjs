@@ -1,0 +1,35 @@
+{
+  "navigation": {
+    "about_me": "About me"
+  },
+  "languages": {
+    "en-EN": "English",
+    "pl-PL": "Polish"
+  },
+  "developer": {
+    "hi_my_name_is_maks": "Hi, my name is Maks.",
+    "i_am_a_react": "I am a React",
+    "developer": "Developer",
+    "based_in_warsaw_poland": "based in Warsaw, Poland."
+  },
+  "my_skills": {
+    "my_skills": "My Skills",
+    "my_expertise": "My Expertise"
+  },
+  "hire_me": {
+    "interested": "Interested in working with me?",
+    "hire_me": "Hire Me!"
+  },
+  "footer": {
+    "copyright": "All rights reserved"
+  },
+  "about_me": {
+    "section_name": "About Me",
+    "title": "Know Me More",
+    "hi": "Hi, I'm",
+    "about": "I'm a developer with a passion for web development. I enjoy developing complex, clean and slick websites that provide real value to the end user. Delivering work within time and budget which meets client’s requirements is my moto.",
+    "years": "Years of",
+    "experiance": "Experiance",
+    "with_react": "with React"
+  }
+}

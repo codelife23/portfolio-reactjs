@@ -1,0 +1,35 @@
+{
+  "navigation": {
+    "about_me": "O Mnie"
+  },
+  "languages": {
+    "en-EN": "Angielski",
+    "pl-PL": "Polski"
+  },
+  "developer": {
+    "hi_my_name_is_maks": "Witam, mam na imię Maks.",
+    "i_am_a_react": "Jestem React",
+    "developer": "Deweloperem",
+    "based_in_warsaw_poland": "z siedzibą w Warszawie."
+  },
+  "my_skills": {
+    "my_skills": "Moje Umiejętności",
+    "my_expertise": "Moja Wiedza Specjalistyczna"
+  },
+  "hire_me": {
+    "interested": "Jesteś zainteresowany współpracą ze mną?",
+    "hire_me": "Zatrudnij mnie!"
+  },
+  "footer": {
+    "copyright": "Wszelkie prawa zastrzeżone"
+  },
+  "about_me": {
+    "section_name": "O mnie",
+    "title": "Poznaj mnie więcej",
+    "hi": "Witam, nazywam się",
+    "about": "Jestem programistą z pasją do tworzenia stron internetowych. Lubię tworzyć złożone, czyste i zgrabne strony internetowe, które zapewniają prawdziwą wartość dla użytkownika końcowego. Dostarczanie pracy w terminie i budżecie, który spełnia wymagania klienta, jest moją motywacją.",
+    "years": "Lat",
+    "experiance": "Doświadczena",
+    "with_react": "z React'em"
+  }
+}
