@@ -77,21 +77,6 @@ function GlobalStyles() {
               : palette.common.yellow
           }
         }
-
-        // circle {
-        //   stroke-dashoffset: 0;
-        //   stroke-width: 10px;
-        //   fill: none;
-        // }
-        
-        // .bg {
-        //   stroke: green;
-        //   opacity: 0.3;
-        // }
-        
-        // #progress .indicator {
-        //   stroke: red;
-        // }
         `}
     />
   );

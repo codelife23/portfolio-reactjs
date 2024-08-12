@@ -1,9 +1,12 @@
+import { useTranslation } from 'react-i18next';
 import { styled } from '@mui/material/styles';
+import PlaceIcon from '@mui/icons-material/Place';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import { useTranslation } from 'react-i18next';
 
 import Me from 'assets/me.jpg';
+import MapModal from './MapModal';
+import { useModal } from 'hooks';
 
 const DevStyled = styled('span')(({ theme }) => ({
   fontWeight: 600,
@@ -30,6 +33,8 @@ const IconsStyled = styled('a')(({ hoverColor }) => ({
 function Developer() {
   const { t } = useTranslation('developer');
 
+  const [open, handleOpen, handleClose] = useModal();
+
   return (
     <section
       className="min-h-[100dvh] flex items-center pt-90 pb-40"
@@ -54,7 +59,15 @@ function Developer() {
             </h2>
 
             <p className="mt-3 text-21 leading-tight">
-              {t('based_in_warsaw_poland')}
+              {t('based_in')}{' '}
+              <span
+                onClick={handleOpen}
+                className="cursor-pointer underline hover:no-underline"
+                aria-labelledby="Open location modal"
+              >
+                {t('warsaw_poland')}
+                <PlaceIcon fontSize="inherit" color="inherit" />
+              </span>
             </p>
 
             <div className="flex gap-x-10 justify-center lg:justify-start mt-20 -ml-4 text-38 leading-none">
@@ -87,6 +100,8 @@ function Developer() {
           </div>
         </div>
       </div>
+
+      <MapModal open={open} handleClose={handleClose} />
     </section>
   );
 }

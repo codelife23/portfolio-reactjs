@@ -1,5 +1,5 @@
-import Developer from './Developer';
-import Skills from './Skills';
+import Developer from './Developer/Developer';
+import Skills from './Skills/Skills';
 import HireMe from './HireMe';
 
 function Home() {

@@ -10,7 +10,9 @@
     "hi_my_name_is_maks": "Hi, my name is Maks.",
     "i_am_a_react": "I am a React",
     "developer": "Developer",
-    "based_in_warsaw_poland": "based in Warsaw, Poland."
+    "based_in": "based in",
+    "warsaw_poland": "Warsaw, Poland",
+    "i_am_here": "I am here"
   },
   "my_skills": {
     "my_skills": "My Skills",

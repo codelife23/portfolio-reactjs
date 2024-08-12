@@ -10,7 +10,9 @@
     "hi_my_name_is_maks": "Witam, mam na imię Maks.",
     "i_am_a_react": "Jestem React",
     "developer": "Deweloperem",
-    "based_in_warsaw_poland": "z siedzibą w Warszawie."
+    "based_in": "z siedzibą w",
+    "warsaw_poland": "Warszawie",
+    "i_am_here": "Jestem tutaj"
   },
   "my_skills": {
     "my_skills": "Moje Umiejętności",
