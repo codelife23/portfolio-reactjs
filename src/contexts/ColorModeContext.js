@@ -40,8 +40,6 @@ export const ColorModeProvider = ({ children }) => {
 
   const value = { mode, theme, toggleColorMode };
 
-  console.log(theme);
-
   return (
     <ColorModeContext.Provider value={value}>
       {children}

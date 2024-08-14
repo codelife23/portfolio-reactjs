@@ -21,6 +21,12 @@ function GlobalStyles() {
           padding: 0 12px;
         }
 
+        #root[aria-hidden] {
+          header {
+            padding-right: var(--scrollbar-width);
+          }
+        }
+
         h1,
         h2,
         h3,
