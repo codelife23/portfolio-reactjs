@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { NavLink } from 'react-router-dom';
 import Drawer from '@mui/material/Drawer';
-import MenuIcon from '@mui/icons-material/Menu';
 
+import Hamburger from './Hamburger';
 import { MobileNavigationStyled } from 'styled';
 
 function MobileNavigation() {
@@ -17,7 +17,10 @@ function MobileNavigation() {
 
   return (
     <>
-      <MenuIcon onClick={handleDrawerToggle} sx={{ display: { md: 'none' } }} />
+      <Hamburger
+        className={mobileOpen ? 'open' : null}
+        onClick={handleDrawerToggle}
+      />
 
       <Drawer
         open={mobileOpen}
